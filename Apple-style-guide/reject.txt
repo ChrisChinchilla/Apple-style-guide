@@ -1,0 +1,54 @@
+# Rejected terms - do not use
+# These terms should never appear in Apple documentation
+
+# Deprecated product references
+AppleID
+iphone
+i-phone
+macbook
+i-pad
+appletv
+airpods
+airplay
+airdrop
+appstore
+faceid
+touchid
+
+# Deprecated terminology
+blacklist
+whitelist
+master/slave
+masterslave
+handicapped
+sanitycheck
+maninthemiddle
+grandfathered
+dummyfile
+
+# Deprecated UI terms
+dialogbox
+checkbox
+dropdown
+popup
+
+# Deprecated verbs
+clickon
+tapon
+hookup
+bootup
+
+# Deprecated technical terms
+ACadapter
+nonce
+coldstart
+crashdump
+errormessage
+
+# Insensitive terms
+deafanddumb
+deafmute
+hearingimpaired
+visuallyimpaired
+wheelchairbound
+confinedtoawheelchair

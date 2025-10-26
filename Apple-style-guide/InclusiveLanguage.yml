@@ -1,0 +1,35 @@
+# Inclusive language rules based on Apple Style Guide
+extends: existence
+message: "Avoid '%s' - consider inclusive alternatives."
+level: warning
+ignorecase: true
+tokens:
+  - blacklist
+  - whitelist
+  - black hat
+  - white hat
+  - master/slave
+  - master-slave
+  - slave
+  - grandfathered
+  - handicapped
+  - deaf and dumb
+  - deaf-mute
+  - hearing impaired
+  - visually impaired
+  - confined to a wheelchair
+  - wheelchair bound
+  - suffers from
+  - victim of
+  - afflicted with
+  - normal user
+  - abnormal
+  - crazy
+  - insane
+  - dummy
+  - sanity check
+  - man-in-the-middle
+  - he/she
+  - s/he
+  - (fe)?male connector
+  - native speaker

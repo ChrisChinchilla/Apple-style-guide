@@ -1,0 +1,67 @@
+# Terminology substitutions based on Apple Style Guide
+extends: substitution
+message: "Use '%s' instead of '%s'."
+level: error
+ignorecase: true
+swap:
+  # Common substitutions from the guide
+  adaptors?: adapters
+  above-mentioned: mentioned earlier
+  AC adapter: power adapter
+  access point name: APN
+  Admin: administrator
+  AirPort Extreme Card: AirPort card
+  allow list: deny list
+  app store: App Store (when referring to Apple's service)
+  application program interface: application programming interface
+  blacklist: deny list
+  white ?list: allow list
+  backwards: backward (when referring to direction)
+  CD audio disc: audio CD
+  cell phone: mobile phone
+  cellular phone: mobile phone
+  click and drag: drag
+  click on: click
+  click the mouse: click
+  cold start: cold-start
+  color blind: person who is color blind
+  colored: (describe the specific color)
+  computer: Mac (when appropriate)
+  crash: quits unexpectedly|stops responding
+  curly brackets: braces
+  cursor: pointer|insertion point (in macOS/iOS context)
+  dialog box: dialog
+  deaf and dumb: deaf
+  deaf-mute: deaf or hard of hearing
+  deejay: DJ
+  dialogue: dialog
+  disk drive: drive
+  dropdown: pop-up menu|menu
+  e-?mail: email
+  e\.g\.: for example
+  etc\.: and so on
+  handicapped: person with a disability
+  hearing impaired: deaf or hard of hearing
+  high-functioning: (avoid - describe support level)
+  how-to: how to
+  i\.e\.: that is
+  internet: internet (lowercase)
+  in to: into (when appropriate)
+  login: sign in|log in
+  log into: log in to
+  machine: computer|Mac
+  male/female connector: (describe connector type)
+  mute: unable to speak
+  nonce: anti-replay value
+  onto: on to (when appropriate)
+  power level: battery level
+  setup: set up (as verb)
+  sign into: sign in to
+  smartphone: iPhone (when appropriate)
+  start-up: startup
+  visually impaired: blind|has low vision
+  web site: website
+  white hat hacker: ethical hacker
+  black hat hacker: malicious hacker
+  WiFi: Wi-Fi
+  will want to: want to|need to

@@ -1,0 +1,20 @@
+# Passive voice detection
+# Apple Style Guide prefers active voice for clarity
+
+extends: existence
+message: "Consider using active voice instead of '%s'."
+level: suggestion
+ignorecase: true
+raw:
+  - '\b(am|are|were|being|is|been|was|be)\s+([\w]+ed|[\w]+ing)\b'
+exceptions:
+  - 'is called'
+  - 'is known'
+  - 'is located'
+  - 'is named'
+  - 'is used'
+  - 'are required'
+  - 'are needed'
+  - 'is designed'
+  - 'are included'
+  - 'is built'

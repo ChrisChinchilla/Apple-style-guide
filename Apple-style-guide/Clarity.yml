@@ -1,0 +1,31 @@
+# Clarity and user-facing language rules
+extends: existence
+message: "Consider rewriting - '%s' may be unclear or overly technical."
+level: suggestion
+ignorecase: true
+tokens:
+  - dialog box
+  - check the checkbox
+  - click the checkbox
+  - error message
+  - error condition
+  - bug
+  - machine
+  - unit(?! of measure)
+  - cabling
+  - male connector
+  - female connector
+  - power level
+  - battery charge level
+  - boot disk
+  - startup sound
+  - boot chime
+  - click the mouse
+  - press the mouse button
+  - flashing(?! LED)
+  - in front(?! of)
+  - frontmost
+  - power button
+  - checkmark
+  - uncheckmark
+  - de-?highlight

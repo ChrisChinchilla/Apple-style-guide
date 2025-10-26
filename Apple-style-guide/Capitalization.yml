@@ -1,0 +1,41 @@
+# Capitalization rules based on Apple Style Guide
+extends: capitalization
+message: "Incorrect capitalization of '%s'."
+level: warning
+match: $title
+ignorecase: true
+indicators:
+  - ':'
+style: AP
+exceptions:
+  - iPhone
+  - iPad
+  - iMac
+  - iOS
+  - iPadOS
+  - macOS
+  - watchOS
+  - tvOS
+  - visionOS
+  - AirPort
+  - AirPlay
+  - AirDrop
+  - AirPods
+  - HomePod
+  - QuickTime
+  - FaceTime
+  - GarageBand
+  - FinalCut
+  - LogicPro
+  - FaceID
+  - TouchID
+  - OpticID
+  - WiFi
+  - 'macbook(?! pro| air)'
+  - 'apple watch'
+  - 'apple tv'
+  - 'apple pencil'
+  - 'app store'
+  - 'time machine'
+  - internet
+  - ethernet

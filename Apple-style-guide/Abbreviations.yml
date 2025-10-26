@@ -1,0 +1,26 @@
+# Abbreviations rules based on Apple Style Guide
+extends: existence
+message: "'%s' - spell out on first use with abbreviation in parentheses."
+level: suggestion
+ignorecase: false
+tokens:
+  - AAC
+  - APFS
+  - API
+  - APN
+  - APNs
+  - ASIC
+  - AVCHD
+  - DAC
+  - GIF
+  - HDR
+  - ISP
+  - LiDAR
+  - ROM
+  - SAN
+  - SDH
+  - SDR
+  - SSD
+  - URL
+  - USB
+  - WYSIWYG

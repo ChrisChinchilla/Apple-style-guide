@@ -1,0 +1,28 @@
+# Verb usage rules based on Apple Style Guide
+extends: substitution
+message: "Use '%s' instead of '%s'."
+level: warning
+ignorecase: true
+swap:
+  # UI actions
+  "press the (?:mouse|trackpad)": click
+  "click on": click
+  "tap on": tap
+  "click and drag": drag
+  "click and hold": press
+  
+  # Common verbs
+  "choose a command": choose
+  "select a command": choose
+  "deactivate": "turn off"
+  "activate": "turn on"
+  "abort": "stop|cancel|quit"
+  "attach the device": "connect the device"
+  "hook up": connect
+  
+  # Installation
+  "do a[n]? (?:clean|custom|normal) install": "perform a \\2 installation"
+  
+  # Technical
+  "boot the computer": "start up the computer"
+  "access the server": "log in to the server|connect to the server"

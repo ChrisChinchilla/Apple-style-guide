@@ -1,0 +1,29 @@
+# Contractions - Apple Style Guide encourages contractions for informal voice
+extends: existence
+message: "Consider using the contraction '%s' for a more conversational tone."
+level: suggestion
+ignorecase: false
+nonword: true
+tokens:
+  - are not
+  - cannot
+  - could not
+  - did not
+  - does not
+  - do not
+  - had not
+  - has not
+  - have not
+  - is not
+  - should not
+  - was not
+  - were not
+  - will not
+  - would not
+  - you are
+  - you have
+  - you will
+  - it is
+  - that is
+  - there is
+  - what is

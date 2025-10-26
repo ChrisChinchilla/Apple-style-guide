@@ -1,0 +1,47 @@
+# Spelling and word forms based on Apple Style Guide
+extends: substitution
+message: "Use '%s' instead of '%s'."
+level: error
+ignorecase: true
+nonword: true
+swap:
+  # Spelling preferences
+  adaptors?: adapters
+  afterwards: afterward
+  analog: analog (not analogue)
+  antennas: antennas (not antennae)
+  appendices: appendixes
+  backwards: backward
+  browseable: browsable
+  buses: buses (not busses, except in audio)
+  canceled: canceled
+  canceling: canceling
+  cancellation: cancellation
+  catalog: catalog (not catalogue)
+  dialog: dialog (not dialogue)
+  disc: disc (for CDs, DVDs)
+  disk: disk (for hard drives, floppy)
+  email: email
+  towards: toward
+  WiFi: Wi-Fi
+  
+  # Compound words and hyphenation
+  "on ?line": online
+  "off ?line": offline
+  "on ?site": onsite
+  "set-?up(?! the)": setup
+  "log-?in(?! to)": sign in
+  "sign-?in(?! to)": sign in
+  "back-?up(?! your)": backup
+  "start-?up(?! your)": startup
+  
+  # Two-word forms
+  website: website
+  internet: internet
+  voicemail: voicemail
+  
+  # One-word forms
+  "any ?time": anytime
+  "every ?one": everyone
+  "every ?thing": everything
+  "on ?going": ongoing

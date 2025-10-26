@@ -1,0 +1,112 @@
+# Accepted Apple-specific terms
+# These terms are valid and should not be flagged
+
+# Product names
+iPhone
+iPad
+iMac
+iPod
+MacBook
+AirPods
+AirPort
+AirPlay
+AirDrop
+HomePod
+AppleTV
+FaceTime
+QuickTime
+GarageBand
+FinalCut
+LogicPro
+FaceID
+TouchID
+OpticID
+Animoji
+Memoji
+Genmoji
+Siri
+
+# Operating systems
+macOS
+iOS
+iPadOS
+watchOS
+tvOS
+visionOS
+
+# Services
+iCloud
+AppStore
+iTunes
+AppleMusic
+AppleNews
+ApplePay
+AppleCard
+AppleCash
+FamilySharing
+iMessage
+Continuity
+Handoff
+SharePlay
+
+# Technologies
+Retina
+ProMotion
+TrueDepth
+TrueTone
+DynamicIsland
+LivePhotos
+ProRes
+ProRAW
+Dolby
+AirTag
+
+# Protocols
+WiFi
+Bluetooth
+Thunderbolt
+USB-C
+Lightning
+
+# Features
+VoiceOver
+AssistiveTouch
+SwitchControl
+Magnifier
+Spotlight
+Dashboard
+Launchpad
+MissionControl
+Timemachine
+
+# Hardware components
+Trackpad
+ForceTouch
+HapticTouch
+DigitalCrown
+TapticEngine
+MagSafe
+Liquidretina
+OLED
+
+# File types
+APFS
+JPEG
+HEIF
+ProRes
+ProRAW
+
+# Developer terms
+Xcode
+TestFlight
+Swift
+Objective-C
+SwiftUI
+UIKit
+AppKit
+CloudKit
+HealthKit
+HomeKit
+ARKit
+RealityKit
+CoreML

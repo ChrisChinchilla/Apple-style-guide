@@ -1,0 +1,38 @@
+# Apple product name rules
+extends: existence
+message: "Incorrect product name '%s' - check Apple Style Guide for correct format."
+level: error
+ignorecase: true
+tokens:
+  - Apple ?ID(?! is)
+  - iphone
+  - i-?phone
+  - mac ?book
+  - i-?pad
+  - Apple ?tv(?!\+| app)
+  - air ?pods
+  - Apple ?pencil
+  - i-?mac
+  - mac-?os
+  - i-?os
+  - watch-?os
+  - tv-?os
+  - vision-?os
+  - ipad-?os
+  - app-?store
+  - mac ?app ?store
+  - itunes ?store
+  - Apple ?music
+  - Apple ?pay
+  - Apple ?news
+  - face-?id
+  - touch-?id
+  - air-?port
+  - air-?play
+  - air-?drop
+  - homepod
+  - home-?pod
+  - time-?machine
+  - quick-?time
+  - garage-?band
+  - final-?cut

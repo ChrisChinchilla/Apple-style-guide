@@ -1,0 +1,38 @@
+# Phrases to avoid - based on Apple Style Guide
+extends: substitution
+message: "Use '%s' instead of '%s' for clarity."
+level: suggestion
+ignorecase: true
+swap:
+  "in order to": to
+  "due to the fact that": because
+  "at this point in time": now|currently
+  "for the purpose of": to|for
+  "in the event that": if
+  "prior to": before
+  "subsequent to": after
+  "in close proximity to": near|close to
+  "has the ability to": can
+  "has the capability to": can
+  "it is important to note that": note that
+  "it should be noted that": note that
+  "please note that": note that
+  "keep in mind that": remember that
+  "in addition to": besides|also
+  "with the exception of": except|except for
+  "take into consideration": consider
+  "make use of": use
+  "give consideration to": consider
+  "conduct an investigation": investigate
+  "perform an analysis": analyze
+  "come to a conclusion": conclude
+  "reach a decision": decide
+  "provide assistance": help
+  "render assistance": help
+  "at the present time": now|currently
+  "during the time that": while|when
+  "in spite of the fact that": although|though
+  "on a regular basis": regularly
+  "on an annual basis": annually
+  "for a period of": for
+  "in a timely manner": promptly|quickly

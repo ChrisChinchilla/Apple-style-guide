@@ -1,0 +1,7 @@
+# Punctuation rules based on Apple Style Guide
+extends: existence
+message: "Serial comma missing - Apple Style Guide requires serial commas."
+level: warning
+ignorecase: false
+raw:
+  - ',\s+\w+\s+(and|or)\s+\w+[^,]'
