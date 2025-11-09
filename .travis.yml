@@ -4,8 +4,8 @@ python:
   - "3.6"
 install:
   # Install the latest release of Vale:
-  - wget https://github.com/errata-ai/vale/releases/download/v2.0.0-beta.2/vale_2.0.0-beta.2_Linux_64-bit.tar.gz
-  - mkdir bin && tar -xvzf vale_2.0.0-beta.2_Linux_64-bit.tar.gz -C bin
+  - wget https://github.com/errata-ai/vale/releases/download/v3.13.0/vale_3.13.0_Linux_64-bit.tar.gz
+  - mkdir bin && tar -xvzf vale_3.13.0_Linux_64-bit -C bin
   - export PATH=./bin:"$PATH"
 
   - bundle install --jobs=3
@@ -15,14 +15,14 @@ install:
   - pip install pyyaml
   - pip install docutils
 before_script:
-  - yamllint -c '.yamllint.yml' write-good
+  - yamllint -c '.yamllint.yml' apple
 script:
   - cucumber
-  - zip -r write-good.zip write-good -x "*.DS_Store"
+  - zip -r .zip apple -x "*.DS_Store"
 deploy:
   provider: releases
   api_key: $GITHUB_TOKEN
-  file: write-good.zip
+  file: apple.zip
   skip_cleanup: true
   on:
     tags: true

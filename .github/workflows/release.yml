@@ -1,0 +1,29 @@
+name: Releases
+
+on: 
+  push:
+    tags:
+    - '*'
+
+jobs:
+
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - run: zip -r apple.zip apple -x "*.DS_Store"
+      
+      - name: Create release
+        uses: ncipollo/release-action@v1
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          generateReleaseNotes: true
+          artifacts: apple.zip
+          token: ${{ secrets.GITHUB_TOKEN }}
+
