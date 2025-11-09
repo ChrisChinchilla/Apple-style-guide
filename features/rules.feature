@@ -1,60 +1,99 @@
-Feature: Rules
+Feature: Apple Style Guide Rules
 
-  Scenario: Cliches
-    When I test "Cliches"
+  Scenario: Spelling
+    When I test "Spelling"
     Then the output should contain exactly:
       """
-      test.md:3:6:write-good.Cliches:Try to avoid using clichés like 'a fine kettle of fish'.
+      test.md:3:1:apple.Spelling:Use 'email' instead of 'e-mail'.
+      test.md:5:1:apple.Spelling:Use 'Wi-Fi' instead of 'WiFi'.
+      test.md:7:1:apple.Spelling:Use 'online' instead of 'on line'.
       """
 
-  Scenario: E-Prime
-    When I test "E-Prime"
+  Scenario: Capitalization
+    When I test "Capitalization"
     Then the output should contain exactly:
       """
-      test.md:3:1:write-good.E-Prime:Try to avoid using 'Here's'.
-      test.md:6:1:write-good.E-Prime:Try to avoid using 'It's'.
+      test.md:1:1:apple.Capitalization:Incorrect capitalization of 'Iphone'.
+      test.md:3:1:apple.Capitalization:Incorrect capitalization of 'IPAD'.
       """
 
-  Scenario: Repeated words
-    When I test "Illusions"
+  Scenario: Serial Comma
+    When I test "SerialComma"
     Then the output should contain exactly:
       """
-      test.md:1:1:write-good.Illusions:'the' is repeated!
-      test.rst:1:1:write-good.Illusions:'foo' is repeated!
+      test.md:3:1:apple.SerialComma:Serial comma missing - Apple Style Guide requires serial commas.
       """
 
-  Scenario: Passive voice
-    When I test "Passive"
+  Scenario: Terminology
+    When I test "Terminology"
     Then the output should contain exactly:
       """
-      test.md:3:11:write-good.Passive:'was defeated' may be passive voice. Use active voice if you can.
+      test.md:3:1:apple.Terminology:Use 'email' instead of 'e-mail'.
+      test.md:5:1:apple.Terminology:Use 'deny list' instead of 'blacklist'.
+      test.md:7:1:apple.Terminology:Use 'sign in' instead of 'login'.
       """
 
-  Scenario: Starting sentences with 'So'
-    When I test "So"
+  Scenario: Passive Voice
+    When I test "PassiveVoice"
     Then the output should contain exactly:
       """
-      test.md:3:1:write-good.So:Don't start a sentence with 'So,'.
+      test.md:3:11:apple.PassiveVoice:Consider using active voice instead of 'was defeated'.
       """
 
-  Scenario: Starting sentences with 'There is'
-    When I test "ThereIs"
+  Scenario: Inclusive Language
+    When I test "InclusiveLanguage"
     Then the output should contain exactly:
       """
-      test.md:3:1:write-good.ThereIs:Don't start a sentence with 'There is'.
-      test.md:5:1:write-good.ThereIs:Don't start a sentence with 'There are'.
+      test.md:3:1:apple.InclusiveLanguage:Avoid 'blacklist' - consider inclusive alternatives.
+      test.md:5:1:apple.InclusiveLanguage:Avoid 'whitelist' - consider inclusive alternatives.
+      test.md:7:1:apple.InclusiveLanguage:Avoid 'handicapped' - consider inclusive alternatives.
       """
 
-  Scenario: Wordy phrases
-    When I test "TooWordy"
+  Scenario: Contractions
+    When I test "Contractions"
     Then the output should contain exactly:
       """
-      test.md:3:11:write-good.TooWordy:'a number of' is too wordy.
+      test.md:3:1:apple.Contractions:Consider using the contraction 'are not' for a more conversational tone.
+      test.md:5:1:apple.Contractions:Consider using the contraction 'do not' for a more conversational tone.
       """
 
-  Scenario: Weasel words
-    When I test "Weasel"
+  Scenario: Abbreviations
+    When I test "Abbreviations"
     Then the output should contain exactly:
       """
-      test.md:3:9:write-good.Weasel:'very' is a weasel word!
+      test.md:3:1:apple.Abbreviations:'API' - spell out on first use with abbreviation in parentheses.
+      test.md:5:1:apple.Abbreviations:'USB' - spell out on first use with abbreviation in parentheses.
+      """
+
+  Scenario: Product Names
+    When I test "ProductNames"
+    Then the output should contain exactly:
+      """
+      test.md:3:1:apple.ProductNames:Incorrect product name 'iphone' - check Apple Style Guide for correct format.
+      test.md:5:1:apple.ProductNames:Incorrect product name 'macbook' - check Apple Style Guide for correct format.
+      test.md:7:1:apple.ProductNames:Incorrect product name 'air pods' - check Apple Style Guide for correct format.
+      """
+
+  Scenario: Clarity
+    When I test "Clarity"
+    Then the output should contain exactly:
+      """
+      test.md:3:1:apple.Clarity:Consider rewriting - 'dialog box' may be unclear or overly technical.
+      test.md:5:1:apple.Clarity:Consider rewriting - 'click the mouse' may be unclear or overly technical.
+      """
+
+  Scenario: Verbs
+    When I test "Verbs"
+    Then the output should contain exactly:
+      """
+      test.md:3:1:apple.Verbs:Use 'click' instead of 'click on'.
+      test.md:5:1:apple.Verbs:Use 'drag' instead of 'click and drag'.
+      """
+
+  Scenario: Wordy Phrases
+    When I test "WordyPhrases"
+    Then the output should contain exactly:
+      """
+      test.md:3:1:apple.WordyPhrases:Use 'to' instead of 'in order to' for clarity.
+      test.md:5:1:apple.WordyPhrases:Use 'because' instead of 'due to the fact that' for clarity.
       """
