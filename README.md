@@ -1,12 +1,14 @@
-# Apple style guide
+# Apple Style Guide
 
-A Vale linter style that attempts to emulate some features of the Apple style guide.
+> [!NOTE]
+>
+> This project is neither maintained nor endorsed by Apple.
+
+This repository contains a [Vale-compatible](https://github.com/errata-ai/vale) implementation of the [*Apple Style Guide*](https://support.apple.com/guide/applestyleguide/) (June 2025).
 
 __Not complete, and WIP, contributions welcome__.😁
 <!-- TODO: Change -->
 [![Build Status](https://travis-ci.org/testthedocs/apple.svg?branch=master)](https://travis-ci.org/testthedocs/apple) ![Vale version](https://img.shields.io/badge/vale-%3E%3D%20v1.7.0-blue.svg) ![license](https://img.shields.io/github/license/mashape/apistatus.svg)
-
-This repository contains a [Vale-compatible](https://github.com/errata-ai/vale) that attempts to emulate some features of the commercial, and closed source, Grammarly. More to come.
 
 ## Getting Started
 
