@@ -10,6 +10,9 @@
 /test/version_tmp/
 /tmp/
 
+# Ignore all macOS Desktop Services Store files
+.DS_Store
+
 # Used by dotenv library to load environment variables.
 # .env
 
